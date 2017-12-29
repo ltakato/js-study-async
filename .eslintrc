@@ -1,5 +1,7 @@
 {
   "env": {
+    "es6": true,
+    "browser": true,
     "node": true,
     "mocha": true
   },
@@ -18,8 +20,6 @@
     "quote-props": [1, "consistent-as-needed"],
     "quotes": 0,
     "indent": [2, 2, { "SwitchCase": 1 }],
-    "no-console": 1,
-    "no-alert": 1,
-    "new-cap": [2, { "capIsNewExceptions": ["List", "Map", "Set"] }],
+    "new-cap": [2, { "capIsNewExceptions": ["List", "Map", "Set"] }]
   }
 }
