@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ltakato/js-study-async/issues"
   },
-  "homepage": "https://github.com/ltakato/js-study-async#readme"
+  "homepage": "https://github.com/ltakato/js-study-async#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
