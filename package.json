@@ -1,0 +1,19 @@
+{
+  "name": "js-study-async",
+  "version": "1.0.0",
+  "description": "repo to study things about asynchronicity in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltakato/js-study-async.git"
+  },
+  "author": "ltakato <ltakato@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltakato/js-study-async/issues"
+  },
+  "homepage": "https://github.com/ltakato/js-study-async#readme"
+}
