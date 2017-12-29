@@ -1,0 +1,24 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "comma-dangle": [1, "always-multiline"],
+    "no-underscore-dangle": 0,
+    "max-len": [1, 180, 4],
+    "arrow-body-style": [0],
+    "import/no-unresolved": [0], // Until import plugin supports webpack 2 resolveModules
+    "import/prefer-default-export": [0],
+    "linebreak-style": 0,
+    "no-undef": "warn",
+    "no-cond-assign": [2, "except-parens"],
+    "no-unused-vars": [1, { "vars": "local", "args": "none" }],
+    "quote-props": [1, "consistent-as-needed"],
+    "quotes": 0,
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "no-console": 1,
+    "no-alert": 1,
+    "new-cap": [2, { "capIsNewExceptions": ["List", "Map", "Set"] }],
+  }
+}
